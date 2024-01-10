@@ -213,3 +213,7 @@ pip install quackify
 ```bash
 python setup.py install
 ```
+
+# Licencia
+
+[MPL-2.0 license](https://github.com/Euronymou5/Quackify/blob/main/LICENSE)
