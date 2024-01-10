@@ -137,7 +137,7 @@ Aquí podemos simular la pulsación de teclas, como Windows + R, utilizando una 
 
 **Todas las hotkeys disponibles en quackify:**
 
-```
+```python
 ['\t', '\n', '\r', ' ', '!', '"', '#', '$', '%', '&', "'", '(',
 ')', '*', '+', ',', '-', '.', '/', '0', '1', '2', '3', '4', '5', '6', '7',
 '8', '9', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`',
@@ -164,7 +164,7 @@ Aquí podemos simular la pulsación de teclas, como Windows + R, utilizando una 
 
 Si es necesario combinar más de una combinación de teclas, se tendría que colocar de la siguiente manera:
 
-```
+```python
 from quackify import hotkeys
 
 hotkeys.hotkey('win+v')
