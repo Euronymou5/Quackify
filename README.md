@@ -179,3 +179,23 @@ from quackify import hotkeys
 
 hotkeys.hotkey('enter')
 ```
+
+### Loops
+
+Aunque Quackify no incorpora bucles personalizados, es posible realizarlos fácilmente utilizando la sintaxis de Python. Observemos la recreación de este código de Duckyscript en Python:
+
+```
+STRING Hello world
+REPEAT 10
+```
+
+Esto repetiría la instrucción "STRING Hello world" 10 veces.
+
+En Python, se traduciría de la siguiente manera:
+
+```python
+from quackify import send
+
+for _ in range(10):
+   send.string("Hello World")
+```
