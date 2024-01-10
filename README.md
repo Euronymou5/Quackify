@@ -90,7 +90,7 @@ from quackify import mouse_click
 # Click derecho
 mouse_click.right()
 
-# Click  izquierdo
+# Click izquierdo
 
 mouse_click.left()
 
