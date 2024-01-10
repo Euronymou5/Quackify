@@ -25,4 +25,40 @@ from quackify import send
 send.string("Hola Mundo")
 ```
 
-Rem: La función "rem" emula lo que sería el comentario en Duckyscript, comúnmente utilizado para proporcionar explicaciones o notas.
+### Rem 
+
+La función "rem" emula lo que sería el comentario en Duckyscript, comúnmente utilizado para proporcionar explicaciones o notas.
+
+```
+REM Este es un comentario en un Duckyscript.
+```
+
+Convertido a python, seria:
+
+```python
+from quackify import rem
+
+rem.add_comment("Este es un comentario en Quackify")
+```
+
+### Delay 
+
+La función "delay" emula lo que sería la pausa por un tiempo determinado en un Duckyscript.
+
+```
+STRING Hola
+DELAY 500
+STRING Mundo
+```
+
+En este caso, el script primero simula la entrada de teclado "Hola" y luego espera 500 milisegundos (o medio segundo) antes de simular la entrada de teclado "Mundo".
+
+Convertido a python, seria:
+
+```python
+from quackify import send, delay
+
+send.string("Hola")
+delay.delay(500)
+send.string("Mundo")
+```
