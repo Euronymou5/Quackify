@@ -48,6 +48,8 @@ from quackify import rem
 rem.add_comment("Este es un comentario en Quackify")
 ```
 
+*Esta función fue creada con el propósito de colaborar con otro proyecto que facilitará la traducción de código Python a Duckyscript y viceversa, aunque se reconoce que su utilidad puede ser muy poca.*
+
 ### Delay 
 
 La función "delay" emula lo que sería la pausa por un tiempo determinado en un Duckyscript.
