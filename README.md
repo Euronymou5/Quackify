@@ -199,3 +199,17 @@ from quackify import send
 for _ in range(10):
    send.string("Hello World")
 ```
+
+## Instalacion
+
+*Usando pip*
+
+```
+pip install quackify
+```
+
+*Desde setup.py*
+
+```bash
+python setup.py install
+```
