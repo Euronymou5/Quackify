@@ -48,7 +48,7 @@ from quackify import rem
 rem.add_comment("Este es un comentario en Quackify")
 ```
 
-*Esta función fue creada con el propósito de colaborar con otro proyecto que facilitará la traducción de código Python a Duckyscript y viceversa, aunque se reconoce que su utilidad puede ser muy poca.*
+*Esta función fue creada con el propósito de colaborar con otro proyecto que facilitará la traducción de código Python a Duckyscript y viceversa, aunque se reconoce que la utilidad de esta funcion puede ser muy poca.*
 
 ### Delay 
 
