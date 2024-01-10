@@ -14,7 +14,7 @@ Muchas de las funciones se inspiraron en [DuckyPad](https://github.com/dekuNukem
 
 ## Funciones
 
-#### String
+### String
 
 La función "string" emula lo que sería un "string" normal en un Duckyscript.
 
