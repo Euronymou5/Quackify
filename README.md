@@ -209,7 +209,7 @@ for _ in range(10):
    send.string("Hello World")
 ```
 
-Igualmente, ocurriría lo mismo con los bucles While.
+Igualmente, ocurriría lo mismo con los bucles **While**.
 
 ```
 WHILE TRUE
