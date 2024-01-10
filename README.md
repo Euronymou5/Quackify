@@ -161,3 +161,21 @@ Aquí podemos simular la pulsación de teclas, como Windows + R, utilizando una 
 'up', 'volumedown', 'volumemute', 'volumeup', 'win', 'winleft', 'winright', 'yen',
 'command', 'option', 'optionleft', 'optionright']
 ```
+
+Si es necesario combinar más de una combinación de teclas, se tendría que colocar de la siguiente manera:
+
+```
+from quackify import hotkeys
+
+hotkeys.hotkey('win+v')
+```
+
+En este ejemplo, se muestra la combinación de teclas para abrir el portapapeles de Windows. 
+
+En caso de que solo sea necesario pulsar una tecla especial, únicamente se colocaría el nombre de esta.
+
+```python
+from quackify import hotkeys
+
+hotkeys.hotkey('enter')
+```
