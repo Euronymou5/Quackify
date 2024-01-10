@@ -209,6 +209,23 @@ for _ in range(10):
    send.string("Hello World")
 ```
 
+Igualmente, ocurriría lo mismo con los bucles While.
+
+```
+WHILE TRUE
+    STRING Hola Mundo
+END_WHILE
+```
+
+En Python, se traduciría de la siguiente manera:
+
+```python
+from quackify import send
+
+while True:
+  send.string("Hola Mundo")
+```
+
 ## Instalacion
 
 *Usando pip*
