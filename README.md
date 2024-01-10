@@ -2,6 +2,8 @@
 
 <img src="https://media.discordapp.net/attachments/995599976463859713/1194480347782590658/quackify_logo_png.png">
 
+-----------
+
 *Quackify es una biblioteca para Python que emula diversas funciones del Duckyscript.*
 
 Entre varias de ellas, encontramos funciones básicas como "string", "rem" y "delay".
