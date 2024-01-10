@@ -63,7 +63,7 @@ delay.delay(500)
 send.string("Mundo")
 ```
 
-## Interacción con el ratón.
+### Interacción con el ratón.
 
 Quackify también incluye funciones para interactuar con el cursor, como clic derecho, clic izquierdo, emulación de clic de rueda del mouse, así como para mover el cursor a coordenadas específicas y para imprimir las coordenadas actuales del cursor.
 
@@ -108,7 +108,7 @@ mouse_move.get_pos()
 
 Con esto, se mostrarían las coordenadas x,y del cursor, y no sería necesario agregar un comando print, ya que este ya está integrado en el código.
 
-## Velocidad de escritura
+### Velocidad de escritura
 
 También, la función string incluye una función adicional llamada **"speed"**. Con esta función, podremos configurar la velocidad a la que el script escribirá, como se muestra en el siguiente ejemplo:
 
