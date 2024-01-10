@@ -217,3 +217,13 @@ python setup.py install
 # Licencia
 
 [MPL-2.0 license](https://github.com/Euronymou5/Quackify/blob/main/LICENSE)
+
+# Contacto
+
+*Preguntas, dudas, ideas:*
+
+**• Discord: euronymou5**
+
+*Bugs, Problemas de instalacion*:
+
+• **[Reportar en los GitHub Issues](https://github.com/Euronymou5/Quackify/issues)**
