@@ -13,8 +13,6 @@ setuptools.setup(
     version=version,
     description=description,
     url=url,
-    long_description=open('README.md').read(),
-    long_description_content_type='text/markdown',
     license=license,
     packages=["quackify"],
     author=author,
