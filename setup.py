@@ -1,7 +1,7 @@
 import setuptools
 
 name = "quackify"
-version = "0.1"
+version = "1.0.0"
 description = "Quackify es una biblioteca para Python que emula diversas funciones del duckyscript."
 author = "Euronymou5"
 url = "https://github.com/Euronymou5/Quackify"
@@ -13,14 +13,16 @@ setuptools.setup(
     version=version,
     description=description,
     url=url,
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     license=license,
     packages=["quackify"],
     author=author,
     classifiers=[
-       "License :: OSI Approved :: Mozilla Public License 2.0 (MPL-2.0)",
-       "Programming Language :: Python :: 3",
-       "Topic :: Software Development :: Libraries :: Python Modules",
-       "Operating System :: OS Independent",
+        "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+        "Programming Language :: Python :: 3",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+        "Operating System :: OS Independent",
     ],
     install_requires=install_requires,
 )
